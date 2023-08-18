@@ -1,0 +1,9 @@
+version: "3"
+services:
+  10cc:
+    build: .
+    container_name: 10cc
+    volumes:
+      - .:/home/user/10cc
+    tty: true
+    platform: linux/amd64
